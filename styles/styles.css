@@ -1,0 +1,44 @@
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.btn-outline-secondary{
+    border: none;
+}
+
+.btn-outline-secondary:hover{
+    border: none;
+    background-color: rgb(163, 163, 163);
+}
+
+.btn-outline-secondary:focus{
+    border: none;
+    background-color: rgb(126, 126, 126) !important;
+}
+
+.btn-outline-secondary:active{
+    border: none;
+    background-color: rgb(126, 126, 126) !important;
+}
+
+img {
+    border:1px solid white;
+}
+
+.card{
+    border: none;
+}
+
+.bg-secondary {
+    background-color: rgb(190, 190, 190) !important;
+}
+
+input[type=text] {
+    border: none;
+}
+
+.text-area{
+    height: 400px;
+}
+

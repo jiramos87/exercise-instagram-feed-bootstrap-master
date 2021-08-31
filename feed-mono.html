@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <title>Instagram</title>
+  </head>
+  <body class>
+   <div class="container-fluid px-0">
+
+       <!-- navbar -->
+       <div class="row">
+        
+        <nav class="navbar navbar-light fixed-top bg-light d-flex flex-row justify-content-between">
+            
+            <a class="navbar-brand ms-5" href="#">
+                <img src="./icons/instagram logo.png" width="120" height="40" alt="Home">
+            </a>
+            
+            
+            <div class="nav-item d-flex ms-auto">
+                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModalLive">
+                    Create a new post
+                </button>
+                <!-- icon dropdown -->
+                <li class="nav-item dropdown ms-2 me-5" style="list-style-type: none;">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <div class="d-flex flex-row">
+                        <img src="./icons/gear-fill.svg">
+                        <img src="./icons/caret-down-fill.svg">
+                    </div>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+            </div>
+       
+        </nav>
+    
+    </div>
+
+        <!-- view selector -->
+        <div class="row">
+            <div class="d-flex justify-content-center mt-4 my-2">
+                <!-- view1 -->
+                <a href="./index.html" class="btn btn-outline-secondary mt-5 mx-2"><img src="./icons/grid-3x3-gap-fill.svg" ></a>
+                <a href="#" class="btn btn-secondary mt-5"><img src="./icons/square-fill.svg" ></a>
+                <!-- view2 -->
+            </div>
+        </div>
+
+        <!-- photo-grid -->
+        <div class="bg-secondary py-2 w-100">
+            <div class="row">
+                <div class="d-flex flex-row justify-content-center ">
+                    <div class="card my-4" style="width: 30rem;">
+                        <p class="lead mx-3 my-2">Antigua Atenas</p>
+                        <img src="./images/athens.jpeg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="lead">23 likes</p>
+                            <p class="card-text">Very philosophical indeed.</p>
+                            <div class="input-group">
+                                <img src="./icons/heart.svg"/>
+                                <input class="form-control" type="text" placeholder="Comment..."/>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="d-flex flex-row justify-content-center ">
+                    <div class="card my-5" style="width: 30rem;">
+                        <p class="lead mx-3 my-2">Bagan in Malaysia</p>
+                        <img src="./images/bagan3.jpeg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="lead">32 likes</p>
+                            <p class="card-text">I would really really like to go there some time.</p>
+                            <div class="input-group">
+                                <img src="./icons/heart.svg"/>
+                                <input class="form-control" type="text" placeholder="Comment..."/>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="d-flex flex-row justify-content-center ">
+                    <div class="card my-5" style="width: 30rem;">
+                        <p class="lead mx-3 my-2">Angkor-say-wat?</p>
+                        <img src="./images/Cambodia-2020-Angkor-Wat.jpeg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="lead">80 likes</p>
+                            <p class="card-text">Excuse my awful dad-jokes.</p>
+                            <div class="input-group">
+                                <img src="./icons/heart.svg"/>
+                                <input class="form-control" type="text" placeholder="Comment..."/>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="d-flex flex-row justify-content-center ">
+                    <div class="card my-5" style="width: 30rem;">
+                        <p class="lead mx-3 my-2">Chichen-itzá in Mexico</p>
+                        <img src="./images/chichen-itza.jpeg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="lead">39 likes</p>
+                            <p class="card-text">It was very crowded. Only would come back at nigth to see that starry night.</p>
+                            <div class="input-group">
+                                <img src="./icons/heart.svg"/>
+                                <input class="form-control" type="text" placeholder="Comment..."/>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="d-flex flex-row justify-content-center ">
+                    <div class="card my-5" style="width: 30rem;">
+                        <p class="lead mx-3 my-2">Giza Pyramid, Egypt</p>
+                        <img src="./images/giza.jpeg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="lead">56 likes</p>
+                            <p class="card-text">Would you reicarnate as a desert camel?</p>
+                            <div class="input-group">
+                                <img src="./icons/heart.svg"/>
+                                <input class="form-control" type="text" placeholder="Comment..."/>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="d-flex flex-row justify-content-center ">
+                    <div class="card my-5" style="width: 30rem;">
+                        <p class="lead mx-3 my-2">Machu-pichu, Peru</p>
+                        <img src="./images/machu-pichu.jpeg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="lead">30 likes</p>
+                            <p class="card-text">Scenes from my very first travel experience.</p>
+                            <div class="input-group">
+                                <img src="./icons/heart.svg"/>
+                                <input class="form-control" type="text" placeholder="Comment..."/>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="d-flex flex-row justify-content-center ">
+                    <div class="card my-5" style="width: 30rem;">
+                        <p class="lead mx-3 my-2">Palmyria, Syria</p>
+                        <img src="./images/palmyria.jpeg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="lead">20 likes</p>
+                            <p class="card-text">In the cradle of civilization</p>
+                            <div class="input-group">
+                                <img src="./icons/heart.svg"/>
+                                <input class="form-control" type="text" placeholder="Comment..."/>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="d-flex flex-row justify-content-center ">
+                    <div class="card my-5" style="width: 30rem;">
+                        <p class="lead mx-3 my-2">Teotihuacan, Mexico.</p>
+                        <img src="./images/teotihuacan.jpeg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="lead">20 likes</p>
+                            <p class="card-text">I read that it was built over a lake.</p>
+                            <div class="input-group">
+                                <img src="./icons/heart.svg"/>
+                                <input class="form-control" type="text" placeholder="Comment..."/>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="d-flex flex-row justify-content-center ">
+                    <div class="card my-5" style="width: 30rem;">
+                        <p class="lead mx-3 my-2">Tikal, Guatemala.</p>
+                        <img src="./images/tile-guatemala-tikal-temple-4-jungle.jpeg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="lead">102 likes</p>
+                            <p class="card-text">One of the best places on earth.</p>
+                            <div class="input-group">
+                                <img src="./icons/heart.svg"/>
+                                <input class="form-control" type="text" placeholder="Comment..."/>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+         
+        
+        
+   </div>
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <!-- modal -->
+    <div class="modal fade" id="exampleModalLive" tabindex="-1" role="dialog" style="display: none;">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                        <div class="d-flex flex-row mt-3">
+                            <button type="button" class="btn btn-outline-dark"><img src="./icons/camera-fill.svg"></button>
+                            <button type="button" class="btn btn-outline-dark"><img src="./icons/geo-alt-fill.svg"></button>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer d-flex">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary">Publish</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
